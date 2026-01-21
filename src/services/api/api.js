@@ -3,7 +3,7 @@ import jsCookie from "js-cookie";
 import { store } from "../../store/store";
 import { logout } from "../../store/slices/authSlice";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://perfume-project-production-b4c5.up.railway.app";
 
 // جعل baseURL عاماً لجميع الـ APIs
 const api = axios.create({
