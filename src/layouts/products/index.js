@@ -213,7 +213,7 @@ function Products() {
     if (!imagePath) return null;
     if (imagePath.startsWith("http")) return imagePath;
     // 🔧 المسار المباشر
-    return `http://localhost:5000/uploads/${imagePath}`;
+    return `https://perfume-project-production-b4c5.up.railway.app/uploads/${imagePath}`;
   };
 
   return (
